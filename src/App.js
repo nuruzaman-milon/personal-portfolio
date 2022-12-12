@@ -5,6 +5,7 @@ import { ThemeContext } from './components/contexts/ThemeProvider';
 import { router } from './components/routes/Routes';
 
 
+
 function App() {
   const { theme } = useContext(ThemeContext);
   return (

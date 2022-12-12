@@ -1,0 +1,57 @@
+[
+    {
+      "_id": 1,
+      "title": "REBUY | Buy & Sell Second-hand mobile online",
+      "images":[
+        "https://i.ibb.co/P6rxJ2K/rebuy.png",
+        "https://i.ibb.co/0XJWgyg/screencapture-rebuy-auth-web-app-2022-12-12-12-20-36.png"
+      ],
+      "introduction":"REBUY is a second-hand online mobile store to buy & sell",
+      "features":[
+        "Single Page Application with mobile, tab & pc responsive project.",
+        "Full-stack project with three different authorizations Buyer, Seller & Admin with JOT token and private routing to secure route from the unwanted users.",
+        "Specific dashboard access for the different authorized users for secure & better UX.",
+        "Secure stripe payment system for Buyers to buy a product online."
+      ],
+      "technology":[
+        "HTML", "TailwindCSS", "Daisy UI", "React.js", "Express.js", "MongoDB"
+      ]
+
+    },
+    {
+      "_id": 2,
+      "title": "WANDERLUST | Tour guide booking web app",
+      "images":[
+        "https://i.ibb.co/mSXTykK/wanderlust.png",
+        "https://i.ibb.co/4TZqqN8/screencapture-wanderlust-auth-web-app-2022-12-12-13-04-36.png"],
+      "introduction":"WANDURLUST is a tour guide booking app",
+      "features":[
+        "Full stack project with mobile, tab & pc responsiveness added for a better UX.",
+        "Manual user authentication and also Google authentication was added for a quick & hassle-free sign-in for users.",
+        "A customer review section was added to get feedback from users and to understand which tour service is suitable for the user."
+      ],
+      "technology":[
+        "HTML", "TailwindCSS", "FlowBite", "React.js", "Express.js", "MongoDB"
+      ]
+
+    },
+    {
+      "_id": 3,
+      "title": "EDEMY | Online learning platform",
+      "images":[
+        "https://i.ibb.co/DD1ZDwC/edemy.png",
+        "https://i.ibb.co/JpFMfLc/screencapture-edemy-auth-firebaseapp-2022-12-12-13-10-50.png"
+      ],
+      "introduction":"EDEMY is a online learning platform app",
+      "features":[
+        "Course info & Course details can find easily for better UX.",
+        "Manual user authentication and also Google & Github authentication were added for a quick & hassle-free sign-in for users.",
+        "Have premium access to get all features for a course.",
+        "Download the pdf to share & save the information to the user's device."
+      ],
+      "technology":[
+        "HTML", "TailwindCSS", "Daisy UI", "React.js", "Express.js"
+      ]
+
+    }
+  ]
