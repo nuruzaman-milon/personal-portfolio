@@ -15,7 +15,10 @@
       ],
       "technology":[
         "HTML", "TailwindCSS", "Daisy UI", "React.js", "Express.js", "MongoDB"
-      ]
+      ],
+      "live":"https://rebuy-auth.web.app/",
+      "clientCode":"https://github.com/nuruzaman-milon/reBuy-client",
+      "serverCode":"https://github.com/nuruzaman-milon/reBuy-server"
 
     },
     {
@@ -32,7 +35,10 @@
       ],
       "technology":[
         "HTML", "TailwindCSS", "FlowBite", "React.js", "Express.js", "MongoDB"
-      ]
+      ],
+      "live":"https://wanderlust-auth.web.app/",
+      "clientCode":"https://github.com/nuruzaman-milon/WANDERLUST-tour-booking-client-repo",
+      "serverCode":"https://github.com/nuruzaman-milon/-WANDERLUST-tour-booking-server-repo"
 
     },
     {
@@ -51,7 +57,10 @@
       ],
       "technology":[
         "HTML", "TailwindCSS", "Daisy UI", "React.js", "Express.js"
-      ]
+      ],
+      "live":"https://edemy-auth.firebaseapp.com/",
+      "clientCode":"https://github.com/nuruzaman-milon/education-learning-client-repo",
+      "serverCode":"https://github.com/nuruzaman-milon/education-learning-server-repo"
 
     }
   ]
