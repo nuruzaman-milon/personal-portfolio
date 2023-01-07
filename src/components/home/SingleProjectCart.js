@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const SingleProjectCart = ({data}) => {
     return ( 
         <div>
-            <div className="card bg-base-100 shadow-xl">
-                <figure className='h-52'><img className='h-full' src={data?.images[0]} alt="Shoes" /></figure>
+            <div className="card shadow-2xl">
+                <figure className='h-44 mt-4'><img className='h-full w-[90%] rounded-xl grayscale hover:grayscale-0 transition-all duration-700 ease-in' src={data?.images[0]} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{data?.title}</h2>
                     <p>{data?.introduction}</p>

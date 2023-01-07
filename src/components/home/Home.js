@@ -22,8 +22,8 @@ const Home = () => {
                     /></h1>
                     {/* <p className='text-xl mb-2 text-slate-400'>Being interested to explore technologies I found web development as my passion. I am aspiring to bring that passion to a full-time role.</p> */}
                     <h3 className='flex mb-2 items-center'><img src="assets/house.png" className='w-6' alt="" /> <p className='ml-[6px] text-xl font-semibold'>Dhaka, Bangladesh</p></h3>
-                    <h3 className='flex mb-2 items-center'><img src="assets/gmail.png" className='w-6' alt="" /> <p className='ml-[6px] text-xl font-semibold'>nuruzaman.milon@gmail.com</p></h3>
-                    <div className='flex mb-9'>
+                    <h3 className='flex mb-7 items-center'><img src="assets/gmail.png" className='w-6' alt="" /> <p className='ml-[6px] text-xl font-semibold'>nuruzaman.milon@gmail.com</p></h3>
+                    <div className='flex mb-7'>
                         <a href="https://www.facebook.com/njkmilon/" target='_blank'><img src="assets/facebook.png" className='w-8 mr-3' alt="" /></a>
                         <a href="https://www.linkedin.com/in/nuruzaman-milon/" target='_blank'><img src="assets/linkedin.png" className='w-8 mr-3' alt="" /></a>
                         <a href="https://github.com/nuruzaman-milon" target='_blank'><img src="assets/github.png" className='w-8' alt="" /></a>
