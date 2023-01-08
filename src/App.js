@@ -1,8 +1,9 @@
 import './App.css';
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { ThemeContext } from './components/contexts/ThemeProvider';
 import { router } from './components/routes/Routes';
+import Navbar from './components/navbar/Navbar';
 
 
 

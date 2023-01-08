@@ -2,6 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import AboutMe from './AboutMe';
 import AllProjects from './AllProjects';
+import Contact from './Contact';
 import Skills from './Skills';
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
             <AboutMe></AboutMe>
             <Skills></Skills>
             <AllProjects></AllProjects>
+            <Contact></Contact>
         </div>
     );
 };

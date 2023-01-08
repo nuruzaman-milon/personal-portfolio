@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import SingleSkills from './SingleSkills';
 
 const Skills = () => {
-    // const [frontend, setFrontend] = useState(false);
-    // const [backend, setBackend] = useState(false);
-    // const [programming, setProgramming] = useState(false);
-    // const [tools, setTools] = useState(false);
     const [show, setShow] = useState('frontend');
     return (
         <div>
