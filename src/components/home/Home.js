@@ -2,6 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import AboutMe from './AboutMe';
 import AllProjects from './AllProjects';
+import Skills from './Skills';
 
 const Home = () => {
     return (
@@ -30,11 +31,9 @@ const Home = () => {
                     </div>
                     <button className='btn btn-accent'>DOWNLOAD RESUME</button>
                 </div>
-                {/* <div className='w-[40%] p-6'>
-                    <img src="assets/image.png" alt="" />
-                </div> */}
             </div>
             <AboutMe></AboutMe>
+            <Skills></Skills>
             <AllProjects></AllProjects>
         </div>
     );

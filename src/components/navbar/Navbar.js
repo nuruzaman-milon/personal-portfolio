@@ -15,7 +15,7 @@ const Navbar = () => {
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>HOME</a></li>
                             <li><a>ABOUT ME</a></li>
-                            <li><a>MY PROJECTS</a></li>
+                            <li><a>PROJECTS</a></li>
                             <li><a>CONTACT</a></li>
                         </ul>
                     </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>HOME</a></li>
                         <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>ABOUT ME</a></li>
                         <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>SKILLS</a></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>MY PROJECTS</a></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>PROJECTS</a></li>
                         <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>CONTACT</a></li>
                         <li><a><button className='btn btn-accent btn-outline btn-sm'>VIEW RESUME</button></a></li>
                     </ul>
