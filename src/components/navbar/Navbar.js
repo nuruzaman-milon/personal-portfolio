@@ -24,11 +24,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal p-0 flex items-center">
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>HOME</a></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>ABOUT ME</a></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>SKILLS</a></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>PROJECTS</a></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><a>CONTACT</a></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/'>HOME</Link></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/about-me'>ABOUT ME</Link></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-skills'>SKILLS</Link></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-projects'>PROJECTS</Link></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-contacts'>CONTACT</Link></li>
                         <Link to='/view-resume'><button className='btn btn-accent btn-outline btn-sm'>VIEW RESUME</button></Link>
                     </ul>
                 </div>

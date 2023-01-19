@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <div className='mb-10'>
             <h1 className='text-center text-4xl font-bold my-12'>Contact With Me</h1>
-            <div className='flex gap-x-14 items-center'>
-                <div className='w-[50%]'>
+            <div className='flex flex-col-reverse md:flex-row md:gap-x-14 md:items-center'>
+                <div className='w-full md:w-[50%]'>
                     <form className="form-control w-full">
                         <label className="label">
                             <span className="label-text">Your Name</span>
@@ -22,7 +22,7 @@ const Contact = () => {
                         <button type='submit' className='btn btn-accent btn-outline mt-4'>Submit</button>
                     </form>
                 </div>
-                <div className='w-[50%]'>
+                <div className='w-full md:w-[50%] mb-6 md:mb-0'>
                     <h3 className='text-2xl font-bold mb-2 text-accent'>My Information</h3>
                     <hr />
                     <p className='my-2 text-lg'><span className='font-bold text-accent text-xl'>Name : </span>Md. Nuruzaman Milon</p>

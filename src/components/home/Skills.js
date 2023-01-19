@@ -7,11 +7,11 @@ const Skills = () => {
     return (
         <div>
             <h1 className='text-center text-4xl font-bold my-12'>SKILLS</h1>
-            <div className='mb-5'>
-                <button onClick={() => setShow('frontend')} className={`${show==='frontend' ? '' : 'btn-outline'} btn btn-accent btn-sm  mr-3`}>Front-End</button>
-                <button onClick={() => setShow('backend')} className={`${show==='backend' ? '' : 'btn-outline'} btn btn-accent btn-sm  mr-3`}>Back-End</button>
-                <button onClick={() => setShow('programming')} className={`${show==='programming' ? '' : 'btn-outline'} btn btn-accent btn-sm  mr-3`}>Programming</button>
-                <button onClick={() => setShow('tools')} className={`${show==='tools' ? '' : 'btn-outline'} btn btn-accent btn-sm  mr-3`}>Tools</button>
+            <div className='mb-5 grid grid-cols-2 md:flex w-full md:w-[46%] gap-4 md:gap-2'>
+                <button onClick={() => setShow('frontend')} className={`${show==='frontend' ? '' : 'btn-outline'} btn btn-accent btn-sm`}>Front-End</button>
+                <button onClick={() => setShow('backend')} className={`${show==='backend' ? '' : 'btn-outline'} btn btn-accent btn-sm`}>Back-End</button>
+                <button onClick={() => setShow('programming')} className={`${show==='programming' ? '' : 'btn-outline'} btn btn-accent btn-sm`}>Programming</button>
+                <button onClick={() => setShow('tools')} className={`${show==='tools' ? '' : 'btn-outline'} btn btn-accent btn-sm`}>Tools</button>
             </div>
             {
                 show === 'frontend' &&
