@@ -30,7 +30,9 @@ const Home = () => {
                         <a href="https://www.linkedin.com/in/nuruzaman-milon/" target='_blank'><img src="assets/linkedin.png" className='w-8 mr-3' alt="" /></a>
                         <a href="https://github.com/nuruzaman-milon" target='_blank'><img src="assets/github.png" className='w-8' alt="" /></a>
                     </div>
-                    <button className='btn btn-accent'>DOWNLOAD RESUME</button>
+                    <a href="resume.pdf" download="resume resume.pdf">
+                        <button className='btn btn-accent'>DOWNLOAD RESUME</button>
+                    </a>
                 </div>
             </div>
             <AboutMe></AboutMe>
