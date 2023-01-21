@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import { ThemeContext } from '../contexts/ThemeProvider';
 
 const Navbar = () => {
@@ -12,23 +12,48 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>HOME</a></li>
-                            <li><a>ABOUT ME</a></li>
-                            <li><a>PROJECTS</a></li>
-                            <li><a>CONTACT</a></li>
+                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-72">
+                            <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/'>HOME</NavLink></li>
+
+                            <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/about-me'>ABOUT ME</NavLink></li>
+
+                            <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-skills'>SKILLS</NavLink></li>
+                            <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-projects'>PROJECTS</NavLink></li>
+                            <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-contacts'>CONTACT</NavLink></li>
+                            <Link to='/view-resume'><button className='btn btn-accent btn-sm w-full'>VIEW RESUME</button></Link>
                         </ul>
                     </div>
-                    {/* <Link to='/' className="btn btn-ghost normal-case text-xl hover:btn-accent"><p className='hover:text-white'>Md. Nuruzaman Milonnn</p></Link> */}
                     <Link to='/'><img className='w-14 rounded-md' src="assets/logo8.png" alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal p-0 flex items-center">
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/'>HOME</Link></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/about-me'>ABOUT ME</Link></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-skills'>SKILLS</Link></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-projects'>PROJECTS</Link></li>
-                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><Link to='/my-contacts'>CONTACT</Link></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/' style={({ isActive }) => ({
+                            color: isActive ? '#198F85' : '',
+                            textDecoration: isActive ? 'underline' : '',
+                            textUnderlineOffset: '3px'
+                        })}>HOME</NavLink></li>
+
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/about-me' style={({ isActive }) => ({
+                            color: isActive ? '#198F85' : '',
+                            textDecoration: isActive ? 'underline' : '',
+                            textUnderlineOffset: '3px'
+                        })}>ABOUT ME</NavLink></li>
+
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-skills' style={({ isActive }) => ({
+                            color: isActive ? '#198F85' : '',
+                            textDecoration: isActive ? 'underline' : '',
+                            textUnderlineOffset: '3px'
+                        })}>SKILLS</NavLink></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-projects' style={({ isActive }) => ({
+                            color: isActive ? '#198F85' : '',
+                            textDecoration: isActive ? 'underline' : '',
+                            textUnderlineOffset: '3px'
+                        })}>PROJECTS</NavLink></li>
+                        <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-contacts' style={({ isActive }) => ({
+                            color: isActive ? '#198F85' : '',
+                            textDecoration: isActive ? 'underline' : '',
+                            textUnderlineOffset: '3px'
+                        })}>CONTACT</NavLink></li>
                         <Link to='/view-resume'><button className='btn btn-accent btn-outline btn-sm'>VIEW RESUME</button></Link>
                     </ul>
                 </div>
