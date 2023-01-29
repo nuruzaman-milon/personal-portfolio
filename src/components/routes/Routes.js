@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import AboutMe from "../home/AboutMe";
 import AllProjects from "../home/AllProjects";
+import BlogsContainer from "../home/Blogs/BlogsContainer";
+import Form from "../home/Blogs/Form";
 import Contact from "../home/Contact";
 import Home from "../home/Home";
 import ProjectDetails from "../home/ProjectDetails";
@@ -42,6 +44,14 @@ export const router = createBrowserRouter([
             {
                 path:'/view-resume',
                 element:<ShowResume></ShowResume>
+            },
+            {
+                path:'/my-blogs',
+                element: <BlogsContainer></BlogsContainer>
+            },
+            {
+                path:'/form-for-adding-blogs',
+                element: <Form></Form>
             },
         ]
     }

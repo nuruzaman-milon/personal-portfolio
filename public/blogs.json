@@ -1,0 +1,19 @@
+[
+    {
+      "_id": "1",
+      "category": "JavaScript",
+      "title": "Need to know about JavaScript array",
+      "images": "https://www.freecodecamp.org/news/content/images/size/w2000/2022/11/cover-template--2-.jpg",
+      "readingTime":"3 min",
+      "postDate":"23 January, 2023",
+      "details":[
+        "Array is a special type of variable than can hold multiple value in one variable. But in JavaScript an array is a type of object that stores a collection of values. The values can be of any data type, such as numbers, strings, or objects, and are stored in a specific order.",
+        "The values in array are organized by their index number which is starts form 0. We can accessed any value by their index number. Like: arrName[2]",
+        "To check the array length we can use the length property by arrName.length",
+        "To add a value in an existing array we can use push method. Like: arrName.push('value')",
+        "For removing any value we can use pop method. ex: arrName.pop()",
+        ""
+      ]
+    }
+
+  ]

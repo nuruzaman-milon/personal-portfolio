@@ -11,7 +11,7 @@ const AboutMe = () => {
                     </p>
                 </div>
 
-                <div className='w-full md:w-[40%] p-6 grayscale hover:grayscale-0 transition-all duration-700 ease-in hover:scale-[1.1]'>
+                <div className='w-full md:w-[40%] p-6 grayscale hover:grayscale-0 transition-all duration-[400ms] ease-in hover:scale-[1.06]'>
                     <img src="assets/image.png" alt="" />
                 </div>
             </div>
