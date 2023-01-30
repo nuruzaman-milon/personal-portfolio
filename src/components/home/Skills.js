@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SingleSkills from './SingleSkills';
 
-const Skills = () => {
+const Skills = ({theme}) => {
     const [show, setShow] = useState('frontend');
     return (
-        <div>
+        <div className={`${!theme ? 'text-white' : '' }`}>
             <h1 className='text-center text-4xl font-bold my-12'>SKILLS</h1>
             <div className='mb-5 grid grid-cols-2 md:flex w-full md:w-[46%] gap-4 md:gap-2'>
                 <button onClick={() => setShow('frontend')} className={`${show==='frontend' ? '' : 'btn-outline'} btn btn-accent btn-sm`}>Front-End</button>

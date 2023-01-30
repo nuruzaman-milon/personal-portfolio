@@ -8,7 +8,7 @@ function App() {
   const { theme } = useContext(ThemeContext);
   return (
     <div data-theme={theme ? "light" : "dark"}>
-      <div className='w-[88%] mx-auto'>
+      <div>
         <RouterProvider router={router}></RouterProvider>
       </div>
     </div>

@@ -10,9 +10,9 @@ import Skills from './Skills';
 
 const Home = () => {
     const { theme } = useContext(ThemeContext);
-    console.log(theme);
+
     return (
-        <div>
+        <div className='w-[88%] mx-auto'>
             <div className='flex items-center mt-10 text-center md:text-left'>
                 <div className='flex flex-col items-center mx-8'>
             
@@ -74,12 +74,13 @@ const Home = () => {
 
                 </div>
             </div>
-            <AboutMe></AboutMe>
-            <Skills></Skills>
-            <AllProjects></AllProjects>
-            <Contact></Contact>
+            <AboutMe theme={theme}></AboutMe>
+            <Skills theme={theme}></Skills>
+            <AllProjects theme={theme}></AllProjects>
+            <Contact theme={theme}></Contact>
 
         </div>
+        
 
     );
 };

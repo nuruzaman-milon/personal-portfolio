@@ -1,25 +1,25 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = ({ theme }) => {
     return (
-        <div className='mb-10'>
+        <div className={`mb-10 ${!theme ? 'text-white' : ''}`}>
             <h1 className='text-center text-4xl font-bold my-12'>Contact With Me</h1>
             <div className='flex flex-col-reverse md:flex-row md:gap-x-14 md:items-center'>
                 <div className='w-full md:w-[50%]'>
                     <form className="form-control w-full">
                         <label className="label">
-                            <span className="label-text">Your Name</span>
+                            <span className={`label-text ${!theme ? 'text-white' : ''}`}>Your Name</span>
                         </label>
-                        <input type="text" placeholder="name" className="input input-bordered w-full" />
+                        <input type="text" placeholder="Mr. Alex" className="input input-bordered w-full" />
                         <label className="label">
-                            <span className="label-text">Your Email</span>
+                            <span className={`label-text ${!theme ? 'text-white' : ''}`}>Your Email</span>
                         </label>
-                        <input type="text" placeholder="name@gmail.com" className="input input-bordered w-full" />
+                        <input type="text" placeholder="alex@gmail.com" className="input input-bordered w-full" />
                         <label className="label">
-                            <span className="label-text">Your Message</span>
+                            <span className={`label-text ${!theme ? 'text-white' : ''}`}>Your Message</span>
                         </label>
-                        <textarea className="textarea textarea-bordered" placeholder="message"></textarea>
-                        <button type='submit' className='btn btn-accent btn-outline mt-4'>Submit</button>
+                        <textarea rows="6" className="textarea textarea-bordered" placeholder="Hi! I want to hire you for my company for the front-end developer role"></textarea>
+                        <button type='submit' className='btn btn-accent btn-outline mt-4 text-white'>Submit</button>
                     </form>
                 </div>
                 <div className='w-full md:w-[50%] mb-6 md:mb-0'>
@@ -32,7 +32,6 @@ const Contact = () => {
                     <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Secondary Gmail : </span>njmilon1@gmail.com</p>
                     <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Phone Number : </span>+880 1303746940, +880 1861017127</p>
                     <p className='text-lg'><span className='font-bold text-accent text-xl'>WhatsApp : </span>+880 1303746940</p>
-                    {/* <p><span></span></p> */}
                 </div>
             </div>
         </div>
