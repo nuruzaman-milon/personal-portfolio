@@ -5,9 +5,9 @@ import { FaPlaneDeparture, FaStickyNote } from "react-icons/fa";
 
 const ProjectDetails = () => {
     const data = useLoaderData();
-    console.log(data);
+    // console.log(data);
     return (
-        <div>
+        <div className='w-[88%] mx-auto'>
             <div className="carousel w-full rounded-lg mt-5 mb-9">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={data?.images[0]} className="w-full h-80" />

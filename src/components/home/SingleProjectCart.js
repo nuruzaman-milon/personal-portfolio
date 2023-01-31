@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { ThemeContext } from '../contexts/ThemeProvider';
 
 const SingleProjectCart = ({ data }) => {
+    const { theme } = useContext(ThemeContext);
+
     return (
-            <div className="card shadow-2xl h-96">
-                <figure className='h-44 mt-4'><img className='h-full w-[90%] rounded-xl grayscale hover:grayscale-0 transition-all duration-700 ease-in' src={data?.images[0]} alt="Shoes" /></figure>
+            // <div className="card rounded-xl shadow-2xl h-[400px] bg-[#1D293A]">
+            <div className={`card rounded-xl shadow-2xl h-[400px] ${!theme ? 'bg-[#1D293A]' : ''}`}>
+                <figure className='h-48 rounded-[8px] mx-auto'><img className='h-full grayscale rounded-md hover:grayscale-0 transition-all duration-700 ease-in hover:scale-[1.2]' src={data?.images[0]} alt="Shoes" /></figure>
                 <div className="card-body py-4">
                     <h2 className="card-title">{data?.title}</h2>
                     <p>{data?.introduction}</p>

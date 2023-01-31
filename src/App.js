@@ -8,7 +8,7 @@ function App() {
   const { theme } = useContext(ThemeContext);
   return (
     <div data-theme={theme ? "light" : "dark"}>
-      <div>
+      <div className={`${!theme ? 'bg-[#111A28]' : ''}`}>
         <RouterProvider router={router}></RouterProvider>
       </div>
     </div>

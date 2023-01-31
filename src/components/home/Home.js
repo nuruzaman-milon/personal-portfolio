@@ -12,10 +12,9 @@ const Home = () => {
     const { theme } = useContext(ThemeContext);
 
     return (
-        <div className='w-[88%] mx-auto'>
-            <div className='flex items-center mt-10 text-center md:text-left'>
+        <div>
+            <div className='flex items-center mt-10 text-center md:text-left w-[88%] mx-auto'>
                 <div className='flex flex-col items-center mx-8'>
-            
                     <div className={`flex flex-col items-center py-2 px-4 rounded-md ${!theme ? 'bg-gray-800 text-white' : 'bg-accent' }`} >
                         <p className='text-xl font-bold'>F</p>
                         <p className='text-xl font-bold'>0</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = ({theme}) => {
     return (
-        <div className={`mt-14 ${!theme ? 'text-white' : '' }`}>
+        <div className={`w-[88%] mx-auto mt-14 ${!theme ? 'text-white' : '' }`}>
             <h1 className='text-center text-4xl font-bold mb-6'>About Me</h1>
             <div className='flex flex-col-reverse md:flex-row justify-center items-center'>
                 <div className='w-full md:w-[60%] text-xl font-semibold'>

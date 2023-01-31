@@ -17,20 +17,8 @@ const Navbar = () => {
         prevScrollpos = currentScrollPos;
     }
 
-    let currentScrollPos1 = 0;
-
-    window.addEventListener('scroll', function () {
-        currentScrollPos1 = window.pageYOffset;
-        // console.log(currentScrollPos1);
-    });
-
-    // You can use the currentScrollPos variable later in your code
-    console.log(currentScrollPos1);
-
-
     return (
-        // <div id='navBar' className='bg-gray-800 sticky top-0 z-50 py-2 transition-all duration-[400ms] ease-out'>
-        <div id='navBar' className={`sticky top-0 z-50 py-2 transition-all duration-[400ms] ease-out ${currentScrollPos1 === 0 ? 'bg-gray-800' : ''}`}>
+        <div id='navBar' className={`sticky top-0 z-50 py-2 transition-all duration-[400ms] ease-out ${!theme ? 'bg-[#111A28]' : 'bg-white'}`}>
             <div className="navbar px-0 w-[88%] mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -85,6 +73,7 @@ const Navbar = () => {
                             // textDecoration: isActive ? 'underline' : '',
                             textUnderlineOffset: '3px'
                         })}>BLOGS</NavLink></li>
+                        
                         <Link to='/view-resume'><button className='btn btn-accent btn-outline btn-sm transition-all duration-[400ms] ease-in'>VIEW RESUME</button></Link>
                     </ul>
                 </div>

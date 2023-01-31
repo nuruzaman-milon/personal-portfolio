@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = ({ theme }) => {
     return (
-        <div className={`mb-10 ${!theme ? 'text-white' : ''}`}>
+        <div className={`w-[88%] mx-auto mb-10 ${!theme ? 'text-white' : ''}`}>
             <h1 className='text-center text-4xl font-bold my-12'>Contact With Me</h1>
             <div className='flex flex-col-reverse md:flex-row md:gap-x-14 md:items-center'>
                 <div className='w-full md:w-[50%]'>

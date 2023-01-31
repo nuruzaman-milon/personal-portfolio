@@ -7,7 +7,7 @@ const AllProjects = ({theme}) => {
     const { isLoading, error, data } = useQuery({
         queryKey: ['courses'],
         queryFn: () =>
-            fetch('https://protfolio-server-alpha.vercel.app/projects').then(res =>
+            fetch('http://localhost:5000/projects').then(res =>
                 res.json()
             )
     })
@@ -17,9 +17,9 @@ const AllProjects = ({theme}) => {
     if (error) return 'An error has occurred: ' + error.message
 
     return (
-        <div className={`${!theme ? 'text-white' : '' }`}>
+        <div className={`w-[88%] mx-auto ${!theme ? 'text-white' : '' }`}>
             <h1 className='text-center text-4xl font-bold mt-14 mb-12'>My Projects</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-16'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 my-16'>
                 {
                     data.map((data) => <SingleProjectCart key={data.id} data={data}></SingleProjectCart>)
                 }

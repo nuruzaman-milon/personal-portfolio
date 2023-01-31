@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
             {
                 path:'/projects/:id',
                 element:<ProjectDetails></ProjectDetails>,
-                loader:({params}) =>fetch(`https://protfolio-server-alpha.vercel.app/projects/${params.id}`)
+                loader:({params}) =>fetch(`http://localhost:5000/projects/${params.id}`)
             },
             {
                 path:'/about-me',
