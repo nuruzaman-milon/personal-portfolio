@@ -12,7 +12,7 @@ const AboutMe = ({theme}) => {
                     </p>
                 </div>
 
-                <div className='w-full md:w-[40%] p-6 grayscale hover:grayscale-0 transition-all duration-[400ms] ease-in hover:scale-[1.06]'>
+                <div className='w-full md:w-[40%] p-6 grayscale hover:grayscale-0 transition-all duration-500 ease-in hover:scale-[1.06]'>
                     <img src="assets/image.png" alt="" />
                 </div>
             </div>

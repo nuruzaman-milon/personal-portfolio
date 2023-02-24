@@ -7,7 +7,7 @@ const AllProjects = ({theme}) => {
     const { isLoading, error, data } = useQuery({
         queryKey: ['courses'],
         queryFn: () =>
-            fetch('http://localhost:5000/projects').then(res =>
+            fetch('https://protfolio-server-njmilon.vercel.app/projects').then(res =>
                 res.json()
             )
     })

@@ -31,7 +31,10 @@ const Contact = ({ theme }) => {
                     <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Primary Gmail : </span>nuruzaman.milon@gmail.com</p>
                     <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Secondary Gmail : </span>njmilon1@gmail.com</p>
                     <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Phone Number : </span>+880 1303746940, +880 1861017127</p>
-                    <p className='text-lg'><span className='font-bold text-accent text-xl'>WhatsApp : </span>+880 1303746940</p>
+                    <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>WhatsApp : </span>+880 1303746940</p>
+                    <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Facebook : </span>https://www.facebook.com/njkmilon/</p>
+                    <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>Linkedin : </span>https://www.linkedin.com/in/nuruzaman-milon/</p>
+                    <p className='mb-2 text-lg'><span className='font-bold text-accent text-xl'>GitHub : </span>https://github.com/nuruzaman-milon</p>
                 </div>
             </div>
         </div>
