@@ -16,12 +16,12 @@ const Skills = ({theme}) => {
             {
                 show === 'frontend' &&
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                    <SingleSkills value='95' name='Html'></SingleSkills>
+                    <SingleSkills value='96' name='Html'></SingleSkills>
                     <SingleSkills value='92' name='CSS'></SingleSkills>
-                    <SingleSkills value='90' name='Tailwind'></SingleSkills>
-                    <SingleSkills value='94' name='Bootstrap'></SingleSkills>
+                    <SingleSkills value='94' name='Tailwind'></SingleSkills>
+                    <SingleSkills value='85' name='Bootstrap'></SingleSkills>
                     <SingleSkills value='96' name='Daisy UI'></SingleSkills>
-                    <SingleSkills value='80' name='FlowBite'></SingleSkills>
+                    <SingleSkills value='85' name='FlowBite'></SingleSkills>
                     <SingleSkills value='85' name='React'></SingleSkills>
                 </div>
             }
@@ -31,16 +31,16 @@ const Skills = ({theme}) => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                     <SingleSkills value='80' name='Node.js'></SingleSkills>
                     <SingleSkills value='85' name='Express.js'></SingleSkills>
-                    <SingleSkills value='65' name='Laravel'></SingleSkills>
-                    <SingleSkills value='90' name='Mongoose'></SingleSkills>
-                    <SingleSkills value='85' name='MongoDB'></SingleSkills>
-                    <SingleSkills value='75' name='MySQL'></SingleSkills>
+                    <SingleSkills value='50' name='Laravel'></SingleSkills>
+                    <SingleSkills value='80' name='Mongoose'></SingleSkills>
+                    <SingleSkills value='80' name='MongoDB'></SingleSkills>
+                    <SingleSkills value='85' name='MySQL'></SingleSkills>
                 </div>
             }
             {
                 show === 'programming' &&
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                    <SingleSkills value='85' name='JavaScript'></SingleSkills>
+                    <SingleSkills value='90' name='JavaScript'></SingleSkills>
                     <SingleSkills value='70' name='C'></SingleSkills>
                     <SingleSkills value='75' name='PHP'></SingleSkills>
                 </div>
@@ -53,10 +53,10 @@ const Skills = ({theme}) => {
                     <SingleSkills value='72' name='Netlify'></SingleSkills>
                     <SingleSkills value='80' name='JWT'></SingleSkills>
                     <SingleSkills value='75' name='Figma'></SingleSkills>
-                    <SingleSkills value='85' name='Git'></SingleSkills>
-                    <SingleSkills value='75' name='npm'></SingleSkills>
+                    <SingleSkills value='90' name='Git'></SingleSkills>
+                    <SingleSkills value='80' name='npm'></SingleSkills>
                     <SingleSkills value='80' name='Postman'></SingleSkills>
-                    <SingleSkills value='75' name='Chrome Dev Tools'></SingleSkills>
+                    <SingleSkills value='85' name='Chrome Dev Tools'></SingleSkills>
                 </div>
             }
         </div>

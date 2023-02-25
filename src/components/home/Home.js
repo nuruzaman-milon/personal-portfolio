@@ -36,11 +36,10 @@ const Home = () => {
                 </div>
                 <div className='w-[90%] mx-auto md:mx-0 md:w-[80%]'>
                     <p className='text-2xl text-accent font-semibold mb-1'>Hello, I am</p>
-                    {/* <h1 className='text-3xl md:text-7xl font-bold mb-7'>Md. Nuruzaman Milon</h1> */}
                     <h1 className={`text-3xl md:text-7xl font-bold mb-7 ${!theme ? 'text-white' : '' }`}>Md. Nuruzaman Milon</h1>
-                    <h1 className='text-xl md:text-2xl font-bold mb-1 text-accent'>Full Stack Software Developer</h1>
+                    <h1 className='text-xl md:text-2xl font-bold mb-1 text-accent'>Front-End Software Developer</h1>
                     <h1 className='text-xl md:text-2xl font-bold text-accent mb-7'><Typewriter
-                        words={['Programmer', 'Web Developer', 'Software Engineer', 'MERN Stack Developer']}
+                        words={['Programmer', 'Web Developer', 'MERN-Stack Developer', 'Full-Stack Developer']}
                         loop={15}
                         cursor
                         cursorStyle='_'
